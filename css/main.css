@@ -188,7 +188,7 @@ button, input, optgroup, select, textarea{
 select{
     text-align: center;
 }
-button{
+button, .button, a.button{
     background-color:#4fb9fb;
     cursor:pointer;
     color:#fff;
@@ -196,10 +196,10 @@ button{
     text-transform: uppercase;
     font-weight: bold;
 }
-button:hover{
+button:hover,  .button:hover, a.button:hover{
     background-color:#3376f9
 }
-button:active{
+button:active,  .button:active, a.button:active{
     background-color:#004adc;
     color:#fff;
 }
