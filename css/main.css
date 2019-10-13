@@ -12,19 +12,11 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.4;
-}
+    font-family: 'Open Sans', sans-serif;
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+}
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -36,9 +28,6 @@ html {
     text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
 
 hr {
     display: block;
@@ -106,7 +95,6 @@ html{
 
 body, p{
     font-family: sans-serif;
-    font-size:17pt;
 }
 h1,h2,h3{
     font-family: 'Love Ya Like A Sister', cursive;
@@ -120,14 +108,18 @@ h2{
 
 .presentation.container{
     max-width:600px;
-    padding:20% 40px;
+    padding:15% 40px;
     margin:0 auto;
+    text-align: center
 }
 
 
 a{
     color:#6f859a;
     text-decoration:none;
+    display:inline-block;
+    padding:2px 4px;
+    border-radius:4px;
 }
 a:hover{
     background-color:#6f859a;
@@ -150,9 +142,67 @@ a:hover{
 }
 
 
+footer{
+    font-size: 0.8em;
+    color:#919293;
+    text-align:center;
+    margin-top:10%;
+    margin-bottom:32px;
+}
+.title-logo a{
+    display:block;
+    background-image:url(../icon.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    width:44px;
+    height:44px;
+    border-radius:8px;
+    overflow: hidden;
+    text-indent: -9999px;
+    color:transparent;
+    margin:40px auto;
+    transition:all .2s ease;
+}
+.title-logo a:hover{
+    background-color: transparent;
+    transform:scale(1.1);
+}
+.formulario-contacto{
+    width:280px;
+    margin:0 auto;
+    background-color: #0047ad;
+    color:#fff;
+    padding:16px 32px;;
+    border-radius:8px;
+}
 
 
-
+button, input, optgroup, select, textarea{
+    width: 100%;
+    min-height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+select{
+    text-align: center;
+}
+button{
+    background-color:#4fb9fb;
+    cursor:pointer;
+    color:#fff;
+    appearance: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button:hover{
+    background-color:#3376f9
+}
+button:active{
+    background-color:#004adc;
+    color:#fff;
+}
 
 /* ==========================================================================
    Helper classes
