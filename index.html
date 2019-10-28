@@ -43,17 +43,11 @@
 
 <div class="wrapper">
 <div class="profile">
-   <table id= "portuguesices" border="0">
-      <thead>
-            <th>imagem</th>
-            <th>expressao</th>
-            <th>descricao</th>
-            <th>link</th>
-        </thead>
-      <tbody>
+   <div id= "portuguesices" border="0">
+      <div class="portuguesice-lista">
 
-       </tbody>
-   </table>
+      </div>
+    </div>
 
 </div>
 </div>
@@ -75,8 +69,8 @@
 
    $.getJSON('portuguesices.json', function(data) {
        $.each(data.portuguesices, function(i, f) {
-          var tblRow = "<tr>" + "<td><img src=" + f.imagem + "/></td>" + "<td>" + f.portuguesice + "</td>" + "<td>" + f.tradPtBr + "</td>" + "<td>" + f.tradEng + "</td>" + "<td>" + f.tradEsp + "</td>" + "<td>" + f.descricao + "</td>" + "<td><a href=https://www.instagram.com/p/" + f.instagram + ">Instagram</a></td>" + "</tr>"
-           $(tblRow).appendTo("#portuguesices tbody");
+          var portuguesicePost = "<div class=portuguesice>" + "<img src=" + f.imagem + "/>" + "<div class=titulo>" + f.portuguesice + "</div>" + "<div class=tradBr>" + f.tradPtBr + "</div>" + "<<div class=tradEn>" + f.tradEng + "</div>" + "<div class=tradEsp>" + f.tradEsp + "</div>" + "<div class=descricao>" + f.descricao + "</div>" + "<div class=link><a href=https://www.instagram.com/p/" + f.instagram + ">Instagram</a></div>" + "</div>"
+           $(portuguesicePost).appendTo("#portuguesices .portuguesice-lista");
      });
 
    });

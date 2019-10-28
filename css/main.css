@@ -290,6 +290,24 @@ button:active,  .button:active, a.button:active{
    Modify as content requires.
    ========================================================================== */
 
+.portuguesice-lista{
+    display:flex;
+    flex-wrap:wrap;
+}
+.portuguesice{
+    width:280px;
+    background-color:#fff;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    margin:4px;
+
+}
+.portuguesice img{
+    width:100%;
+    height:auto;
+}
+
+
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
