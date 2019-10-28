@@ -71,18 +71,11 @@
   <script>
 
     $(function() {
-
-
-   var people = [];
+   var portuguesices = [];
 
    $.getJSON('portuguesices.json', function(data) {
        $.each(data.portuguesices, function(i, f) {
-          var tblRow = "<tr>" + "<td><img src=" + f.imagem + "/></td>" + "<td>" + f.portuguesice + "</td>" +
-           "<td>" + f.tradPtBr + "</td>" +
-           "<td>" + f.tradEng + "</td>" +
-           "<td>" + f.tradEsp + "</td>" 
-           + "<td>" + f.descricao + "</td>" + 
-           "<td><a href=https://www.instagram.com/p/" + f.instagram + ">Instagram</a></td>" + "</tr>"
+          var tblRow = "<tr>" + "<td><img src=" + f.imagem + "/></td>" + "<td>" + f.portuguesice + "</td>" + "<td>" + f.tradPtBr + "</td>" + "<td>" + f.tradEng + "</td>" + "<td>" + f.tradEsp + "</td>" + "<td>" + f.descricao + "</td>" + "<td><a href=https://www.instagram.com/p/" + f.instagram + ">Instagram</a></td>" + "</tr>"
            $(tblRow).appendTo("#portuguesices tbody");
      });
 
