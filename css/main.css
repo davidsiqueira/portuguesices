@@ -316,9 +316,10 @@ button:active,  .button:active, a.button:active{
     padding-top:8px;
     margin-top:8px;
     border-top:1px solid #f1f2f3;
+    font-size: .8em;;
 }
-.portuguesice .link{
-    font-size:.8em;
+.portuguesice .link a{
+    font-size:.7em;
     color:#28b1ff
 }
 
