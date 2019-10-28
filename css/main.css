@@ -293,20 +293,34 @@ button:active,  .button:active, a.button:active{
 .portuguesice-lista{
     display:flex;
     flex-wrap:wrap;
+    justify-content: center;
 }
 .portuguesice{
-    width:280px;
+    width:30%;
+    min-width:280px;
     background-color:#fff;
     border-radius:8px;
     box-shadow:0 2px 8px rgba(0,0,0,0.2);
-    margin:4px;
+    margin:8px;
 
 }
 .portuguesice img{
     width:100%;
     height:auto;
+    border-radius:8px;
 }
-
+.portuguesice .conteudo{
+    padding:8px;
+}
+.portuguesice .descricao{
+    padding-top:8px;
+    margin-top:8px;
+    border-top:1px solid #f1f2f3;
+}
+.portuguesice .link{
+    font-size:.8em;
+    color:#28b1ff
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
