@@ -1,0 +1,22 @@
+{
+   "portuguesices": [
+       {
+           "portuguesice": "badalhoca",
+           "tradPtBr": "porca",
+           "descricao": "...",
+           "roll": 20
+       },
+       {
+           "firstName": "badagaio",
+           "lastName": "desmaio",
+           "job": "2...",
+           "roll": 30
+       },
+       {
+           "firstName": "pevide",
+           "lastName": "semente",
+           "job": "...3",
+           "roll": 40
+       }
+   ]
+}
