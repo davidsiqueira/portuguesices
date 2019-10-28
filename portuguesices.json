@@ -1,22 +1,450 @@
 {
    "portuguesices": [
        {
-           "portuguesice": "badalhoca",
-           "tradPtBr": "porca",
-           "descricao": "...",
-           "roll": 20
+           "portuguesice": "Carcanhol",
+           "tradPtBr": "Dinheiro",
+           "tradEng": "Money",
+           "tradEsp": "Dinero",
+           "descricao": "Às vezes tenho muita dificuldade em entender algumas palavras portuguesas, uma das que mais me causou confusão foi quando me disseram que tinham carcanhol no saco. ",
+           "imagem": "imagens/carcanhol.jpg",
+           "categoria": "objetos",
+           "instagram": "BsxXQCul5GN",
+           "numero": 1
        },
        {
-           "firstName": "badagaio",
-           "lastName": "desmaio",
-           "job": "2...",
-           "roll": 30
-       },
-       {
-           "firstName": "pevide",
-           "lastName": "semente",
-           "job": "...3",
-           "roll": 40
-       }
+            "portuguesice": "Gemeos",
+            "tradPtBr": "Panturrilha",
+            "tradEng": "Calf",
+            "tradEsp": "pantorrilla",
+            "descricao": "Se for a uma aula de Yoga em Portugal, lembre-se de que manter os gémeos alinhados não tem nada a ver com os irmãos.",
+            "imagem": "imagens/gemeos.jpg",
+            "categoria": "corpo humano",
+            "instagram": "Bs0kO0ZF2uQ",
+            "numero": 2
+        },
+        {
+            "portuguesice": "piropo",
+            "tradPtBr": "cantada, xaveco",
+            "tradEng": "pick-up line",
+            "tradEsp": "",
+            "descricao": "“Tantas curvas e eu sem travões.” “És como um helicóptero: gira e boa.” “A tua mãe só pode ser uma ostra para cuspir uma pérola como tu.”",
+            "imagem": "imagens/piropo.jpg",
+            "categoria": "Piropo",
+            "instagram": "Bs3_21JFDLm",
+            "numero": 3
+        },
+        {
+            "portuguesice": "Batota",
+            "tradPtBr": "Trapa;ça",
+            "tradEng": "Cheating",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/batota.jpg",
+            "categoria": "ações",
+            "instagram": "Bs9DcC0lS8F",
+            "numero": 4
+        },
+        {
+            "portuguesice": "Autoclismo",
+            "tradPtBr": "Descarga",
+            "tradEng": "Flush",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/autoclismo.jpg",
+            "categoria": "objetos",
+            "instagram": "",
+            "numero": 5
+        },
+        {
+            "portuguesice": "Badagaio",
+            "tradPtBr": "Desmaiar",
+            "tradEng": "Fainting",
+            "tradEsp": "Desmayo",
+            "descricao": "“Deu-lhe o badagaio” é uma das formas mais comuns de escutar esta expressão. Dizem que a palavra tem origem da palavra vagado, que quer dizer vertigem. 
+            Mas bem que daria um trava línguas interessante... “o papagaio gago teve um badagaio na gaiola.” Repete 3 vezes.",
+            "imagem": "imagens/.jpg",
+            "categoria": "ações",
+            "instagram": "BtCOQ7pFeht",
+            "numero": 6
+        },
+        {
+            "portuguesice": "Bué",
+            "tradPtBr": "Muito",
+            "tradEng": "A lot",
+            "tradEsp": "Mucho",
+            "descricao": "Por mais que pareça o choro de uma criança, bué quer dizer muito. ",
+            "imagem": "imagens/bue.jpg",
+            "categoria": "",
+            "instagram": "BtE2RcVlsh7",
+            "numero": 7
+        },
+        {
+            "portuguesice": "Fixe",
+            "tradPtBr": "Legal",
+            "tradEng": "Cool",
+            "tradEsp": "Bueno",
+            "descricao": "Muitas vezes acompanhado pela expressão bué, o termo fixe está ligado a algo agradável. 
+            Pode ser usado em perguntas como “Tás Fixe?” como “Tudo bem?” e em frases como “isso é bué da fixe” para “isso é muito bom”",
+            "imagem": "imagens/fixe.jpg",
+            "categoria": "",
+            "instagram": "BtGxSf2lNZu",
+            "numero": 8
+        },
+        {
+            "portuguesice": "Tugas",
+            "tradPtBr": "Portugueses",
+            "tradEng": "Portuguese",
+            "tradEsp": "",
+            "descricao": "Uma das espécies mais importantes encontradas em terras lusitanas são Tugas, alimentam-se basicamente de vinho, bacalhau e pastéis de nata. 
+            Não, não são tartarugas, são essa malta bué da fixe, os portugueses.",
+            "imagem": "imagens/tugas.jpg",
+            "categoria": "",
+            "instagram": "BtJsAA8l1T1",
+            "numero": 9
+        },
+        {
+            "portuguesice": "Vai dar a volta ao bilhar grande",
+            "tradPtBr": "some daqui! Não aborrece",
+            "tradEng": "get out!",
+            "tradEsp": "¡Vete!",
+            "descricao": "Em algumas regiões esta frase pode se tornar ainda mais confusa por trocarem o V pelo B, mas se ouvir isso, não estão pedindo para procurar por uma mesa de sinuca e andar ao redor dela. Isso quer dizer que você está sendo chato.",
+            "imagem": "imagens/daravoltaaobilhargrande.jpg",
+            "categoria": "ação",
+            "instagram": "",
+            "numero": 10
+        },
+        {
+            "portuguesice": "Alcatifa",
+            "tradPtBr": "Carpete",
+            "tradEng": "Carpet",
+            "tradEsp": "Alfombra",
+            "descricao": "Pode parecer um espirro daqueles estrondosos, mas não diga “saúde” pra já, Alcatifa é apenas carpete.",
+            "imagem": "imagens/alcatifa.jpg",
+            "categoria": "objeto",
+            "instagram": "BtQRfBqFljG",
+            "numero": 11
+        },
+        {
+            "portuguesice": "Passadeira",
+            "tradPtBr": "faixa de pedestre / esteira de exercícios",
+            "tradEng": "pedestrian crossing / treadmills",
+            "tradEsp": "paso de peatones / cintas de correr",
+            "descricao": "Pode parecer que estamos falando das senhoras que passam roupas, mas não, em Portugal deves usar a passadeira para atravessar a rua. 
+            A mesma palavra também serve pra as esteiras de correr.",
+            "imagem": "imagens/passadeira.jpg",
+            "categoria": "",
+            "instagram": "BtSyMLolLHc",
+            "numero": 12
+        },
+        {
+            "portuguesice": "Crominho",
+            "tradPtBr": "cdf",
+            "tradEng": "nerd",
+            "tradEsp": "nerd",
+            "descricao": "A versão mais carinhosa de cromo, é vista por alguns como pejorativa, mas pode referenciar uma pessoa inteligente e aplicada aos estudos.",
+            "imagem": "imagens/crominho.jpg",
+            "categoria": "",
+            "instagram": "BtYFwYJlBN-",
+            "numero": 13
+        },
+        {
+            "portuguesice": "Bófia",
+            "tradPtBr": "Pol]icia",
+            "tradEng": "Police",
+            "tradEsp": "Policia",
+            "descricao": "Uma bofe mulher, tipo a Gracyanne? Pode até ser, mas em Portugal, quando ouvir 'lá vem a Bófia', a polícia vem aí.",
+            "imagem": "imagens/bofia.jpg",
+            "categoria": "profissão",
+            "instagram": "BtVZWWCldVb",
+            "numero": 14
+        },
+        {
+            "portuguesice": "Encher a mula",
+            "tradPtBr": "Se empaturrar",
+            "tradEng": "Overeat",
+            "tradEsp": "Comer con exceso",
+            "descricao": "Encher a pança, comer até o #* fazer bico, empanzinar, comer até a tampa, encher o bucho...
+            Encher a mula pode ser falado no Brasil de várias formas dependendo da região, qual é a sua favorita? ",
+            "imagem": "imagens/encheramula.jpg",
+            "categoria": "ação",
+            "instagram": "Btb0b5bFKRH",
+            "numero": 15
+        },
+        {
+            "portuguesice": "Chávena",
+            "tradPtBr": "Xícara",
+            "tradEng": "Tea cup",
+            "tradEsp": "Taza de té",
+            "descricao": "Tinha que ter relação com chá né? Mas a chávena também serve pro cafezinho ☕️, só acho que deveria existir um modelo específico chamado cáfena?",
+            "imagem": "imagens/chavena.jpg",
+            "categoria": "objeto",
+            "instagram": "BteWFT3lUiD",
+            "numero": 16
+        },
+        {
+            "portuguesice": "Gira",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/gira.jpg",
+            "categoria": "",
+            "instagram": "BtfsbTYFy6G",
+            "numero": 17
+        },
+        {
+            "portuguesice": "Briol",
+            "tradPtBr": "Frio",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/frio.jpg",
+            "categoria": "",
+            "instagram": "Btjuq5hls31",
+            "numero": 18
+        },
+        {
+            "portuguesice": "Pêra",
+            "tradPtBr": "Cavanhaque",
+            "tradEng": "Goatee beard",
+            "tradEsp": "",
+            "descricao": "Péra, não é uma pêra com pêlo 🍐 
+            Pêra em Portugal são os pelos faciais que formam a semi-barba o famoso Cavanhaque no Brasil. ",
+            "imagem": "imagens/pera.jpg",
+            "categoria": "",
+            "instagram": "BtnbVTTF3No",
+            "numero": 19
+        },
+        {
+            "portuguesice": "Sapatilhas",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/sapatilhas.jpg",
+            "categoria": "",
+            "instagram": "BttaEeblaKR",
+            "numero": 20
+        },
+        {
+            "portuguesice": "Caraças",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/caracas.jpg",
+            "categoria": "",
+            "instagram": "Btvk7gQliEi",
+            "numero": 21
+        },
+        {
+            "portuguesice": "Arrumo-te",
+            "tradPtBr": "Te dou Uma coça",
+            "tradEng": "I will punch you",
+            "tradEsp": "",
+            "descricao": "Se alguém lhe disser 'Arrumo-te', cuidado pois esta pessoa pode não estar a ser cuidadosa consigo, ela quer quebrar tua cara, te dar uma surra, te espancar, dar uma coça, um murro na tua fuça, te quebrar, ... 😖",
+            "imagem": "imagens/arrumote.jpg",
+            "categoria": "",
+            "instagram": "BtyyRoLl95m",
+            "numero": 22
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 23
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 24
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 25
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 26
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 27
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 28
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 29
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 30
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 31
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 32
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 33
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 34
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 35
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 36
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 37
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 38
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 39
+        },
+        {
+            "portuguesice": "",
+            "tradPtBr": "",
+            "tradEng": "",
+            "tradEsp": "",
+            "descricao": "",
+            "imagem": "imagens/.jpg",
+            "categoria": "",
+            "instagram": "",
+            "numero": 40
+        }
    ]
 }
