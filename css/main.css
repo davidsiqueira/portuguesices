@@ -97,7 +97,7 @@ body, p{
     font-family: sans-serif;
 }
 h1,h2,h3{
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Love Ya Like A Sister', sans-serif;
     font-weight: normal;
     color:#0047ad;
 }
@@ -292,10 +292,13 @@ button:active,  .button:active, a.button:active{
 h3{
     color:#28b1ff
 }
+
 .portuguesice-lista{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
+    background-color: #f1f2f3;
+    padding: 32px 16px;
 }
 .portuguesice{
     width:20%;
@@ -303,7 +306,7 @@ h3{
     background-color:#fff;
     border-radius:8px;
     box-shadow:0 2px 8px rgba(0,0,0,0.2);
-    margin:8px;
+    margin:10px;
 
 }
 .portuguesice img{
