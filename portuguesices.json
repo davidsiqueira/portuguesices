@@ -1838,12 +1838,12 @@
         },
         {
             "portuguesice": "Sumo",
-            "tradPtBr": "",
-            "tradEng": "",
+            "tradPtBr": "Suco",
+            "tradEng": "Juice",
             "tradEsp": "",
             "descricao": "",
             "imagem": "imagens/sumo.jpg",
-            "categoria": "alimento",
+            "categoria": "Alimentos",
             "regiao": "",
             "instagram": "B2z-CMgnuZd",
             "numero": 154
@@ -2203,7 +2203,7 @@
             "tradEsp": "Osito de peluche",
             "descricao": "Peluche é o nome do tecido com o qual são feitos vários brinquedos, o mais popular é o ursinho de Peluche. Em Portugal é normal dizerem apenas Peluche. Dizem que foi criado a partir das notícias de que o presidente norte-americano Theodore Roosevelt teria se recusado a matar um urso ferido durante uma caçada, criando-se assim o Teddy Bear, uma abreviação do nome do presidente. Porém há registros destes brinquedos anteriores à data da história. ",
             "imagem": "imagens/peluche.jpg",
-            "categoria": "objetos",
+            "categoria": "Objetos",
             "regiao": "",
             "instagram": "B4Mi3ArHzke",
             "numero": 184
@@ -2215,11 +2215,127 @@
             "tradEsp": "Todo en Un Dia",
             "descricao": "",
             "imagem": "imagens/oreidosgazeteiros.jpg",
-            "categoria": "filmes",
+            "categoria": "Filmes",
             "regiao": "",
             "instagram": "B4PJACfnNSC",
             "numero": 185
+        },
+        {
+            "portuguesice": "Doçura ou Travessura",
+            "tradPtBr": "Gostosuras ou Travessuras",
+            "tradEng": "Trick or treat",
+            "tradEsp": "Truco o trato",
+            "descricao": "Doçura ou Travessura é a versão portuguesa da famosa frase falada pelas crianças no Halloween ao ir pedir doces de casa em casa. 🎃",
+            "imagem": "imagens/docuraoutravesura.jpg",
+            "categoria": "Datas comemorativas",
+            "regiao": "",
+            "instagram": "B4SPAqIH5Dr",
+            "numero": 186
+        },
+        {
+            "portuguesice": "Pão por Deus",
+            "tradPtBr": "Finadinho(Florianópolis), Festilha(São Francisco do Sul)",
+            "tradEng": "Bread for God's sake Day",
+            "tradEsp": "Los Santitos, Pan por Dios, Migallo (Galiza)",
+            "descricao": "Em Portugal há uma tradição de na manhã do dia de todos os Santos as crianças passarem com um saquinho a pedir pão por Deus, e recebem doces, frutos secos, pães e bolinhos. /n  A origem da tradição vem do ritual antigo de oferecer pão e vinho para os mortos no dia de finados, colocava-se em um pano sobre a sepultura. Com o tempo passou-se a oferecer estes pães às crianças e aos mais pobres. Este ritual tem origem pagã, dos antigos celtas que habitavam o que é hoje Portugal. O mesmo ritual teria dado origem ao Halloween. /n Outras fontes sugerem que o Pão por Deus tenha se tornado o que é atualmente após os grande terremoto que aconteceu em Lisboa em 1 de novembro de 1755, muitas dos sobreviventes do desastre, sem ter o que comer pediam doações a quem menos sofreu./nComo parte da tradição as crianças entoam versinhos e cantigas como: “Bolinhos e bolinhós /n Para mim e para vós, /n Para dar aos finados /n Que estão mortos e enterrados /n À bela, bela cruz /n Truz, Truz! /n A senhora que está lá dentro /n Sentada num banquinho /n Faz favor de s'alevantar /n Para vir dar um tostãozinho./nSe dão doces: “Esta casa cheira a broa, /n Aqui mora gente boa. /n Esta casa cheira a vinho, /n Aqui mora um santinho. /n  /n Se não dão doces: “Esta casa cheira a alho /n Aqui mora um espantalho. /n Esta casa cheira a unto /n Aqui mora algum defunto",
+            "imagem": "imagens/paopordeus.jpg",
+            "categoria": "Datas comemorativas",
+            "regiao": "",
+            "instagram": "B4UFzeSn3vl",
+            "numero": 187
+        },
+        {
+            "portuguesice": "Malga",
+            "tradPtBr": "Tigela, cumbuca",
+            "tradEng": "Bowl",
+            "tradEsp": "Cuenco",
+            "descricao": "Malga não é algo malvado, uma vilã da Disney ou habitantes da Ilha de Malta. É o nome que se dá a recipientes normalmente usados para líquidos como sopas.",
+            "imagem": "imagens/malga.jpg",
+            "categoria": "Objetos",
+            "regiao": "",
+            "instagram": "B4UFzeSn3vl",
+            "numero": 188
+        },
+        {
+            "portuguesice": "Morfar",
+            "tradPtBr": "Comer",
+            "tradEng": "To Eat",
+            "tradEsp": "Comer",
+            "descricao": "Esse termo é usado informalmente para definir a ingestão de alimentos, que também podem ser chamados de morfes. É hora de morfar! ",
+            "imagem": "imagens/morfar.jpg",
+            "categoria": "Verbos",
+            "regiao": "",
+            "instagram": "B4ZOSWGHQUi",
+            "numero": 189
+        },
+        {
+            "portuguesice": "Maléfica",
+            "tradPtBr": "Malévola",
+            "tradEng": "Maleficent",
+            "tradEsp": "Maléfica",
+            "descricao": "Uma pequena mudança no nome da personagem, vilã da história da Bela Adormecida, que é a protagonista em dois filmes mais recentes. Enquando no Brasil é usada uma versão mais próxima do que poderia ser um nome, Malévola , em Portugal usa-se a mesma palavra que em Espanha, Maléfica, que é mais similar ao nome original Maleficent.",
+            "imagem": "imagens/malevola.jpg",
+            "categoria": "Filmes",
+            "regiao": "",
+            "instagram": "B4gQ95OHqnN",
+            "numero": 190
+        },
+        {
+            "portuguesice": "Bola de Berlim",
+            "tradPtBr": "Sonho",
+            "tradEng": "Berliner",
+            "tradEsp": "Berlinesa",
+            "descricao": "Bola de Berlim, é a versão portuguesa do doce berliner, que é uma especie de donut sem o buraco no meio, com um recheio de creme e corbertura de açúcar. /n No Brasil também há uma versão, conhecida como sonho, que pode receber um recheio de creme, doce de leite ou chocolate.",
+            "imagem": "imagens/boladeberlim.jpg",
+            "categoria": "Doces, Alimentos",
+            "regiao": "",
+            "instagram": "B4la7W8HfuO",
+            "numero": 191
+        },
+        {
+            "portuguesice": "Chavalo",
+            "tradPtBr": "Rapaz",
+            "tradEng": "Boy",
+            "tradEsp": "Chaval",
+            "descricao": "Chavalo pode parecer uma mistura de chá com cavalo, mas na verdade é a expressão usada para se referir a meninos jovens, adolescentes.",
+            "imagem": "imagens/chavalo.jpg",
+            "categoria": "Adjetivos",
+            "regiao": "",
+            "instagram": "B4qWY1aH7D8",
+            "numero": 192
+        },
+        {
+            "portuguesice": "Levar uma tampa",
+            "tradPtBr": "Levar um fora",
+            "tradEng": "To get dumped",
+            "tradEsp": "Pinza de tender",
+            "descricao": "Levar uma tampa é a expressão usada quando se é rejeitado.",
+            "imagem": "imagens/levarumatampa.jpg",
+            "categoria": "Expressões",
+            "regiao": "",
+            "instagram": "B4r4WVunAVP",
+            "numero": 193
+        },
+        {
+            "portuguesice": "Mola",
+            "tradPtBr": "Pregador, Prendedor",
+            "tradEng": "Clothespin",
+            "tradEsp": "Pinza de tender",
+            "descricao": "Mola é a palavra usada para as pequenas peças usadas para prender as roupas no estendal, ou varal.",
+            "imagem": "imagens/mola.jpg",
+            "categoria": "Objetos",
+            "regiao": "",
+            "instagram": "B4r4WVunAVP",
+            "numero": 194
         }
+        
+        
+        
+        
+        
+        
+        
+
         
    ]
 }
