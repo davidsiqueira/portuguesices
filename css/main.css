@@ -297,7 +297,7 @@ h3{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
-    background-color: #3376f9;
+    background-color: #003792;
     padding: 8px;
 }
 .portuguesice{
@@ -328,9 +328,12 @@ h3{
     font-size:.7em;
     color:#28b1ff
 }
-.portuguesice .link a{
+.portuguesice .link a:hover{
     background-color:#28b1ff;
-    color:#ffffff
+    color:#fff
+}
+.portuguesice .link a:active{
+    background-color:#3376f9;
 }
 
 @media only screen and (min-width: 35em) {
