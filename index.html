@@ -71,7 +71,7 @@
 
    $.getJSON('portuguesices.json', function(data) {
        $.each(data.portuguesices, function(i, f) {
-          var portuguesicePost = "<div class=portuguesice" + "id=" + f.numero + ">" + "<img src=" + f.imagem + " loading=lazy />" + "<div class=conteudo><div class=titulo>🇵🇹" + f.portuguesice + "</div>" + "<div class=tradBr>🇧🇷" + f.tradPtBr + "</div>" + "<div class=tradEn>🇺🇸" + f.tradEng + "</div>" + "<div class=tradEsp>🇪🇸" + f.tradEsp + "</div>" + "<div class=descricao>" + f.descricao + "</div>" + "<div class=link><a href=https://www.instagram.com/p/" + f.instagram + ">Instagram</a></div>" + "</div></div>"
+          var portuguesicePost = "<div class=portuguesice" + " id=" + f.numero + " alt=" + f.portuguesice + " loading=lazy >" + "<img src=" + f.imagem + " loading=lazy />" + "<div class=conteudo><div class=titulo>🇵🇹" + f.portuguesice + "</div>" + "<div class=tradBr>🇧🇷" + f.tradPtBr + "</div>" + "<div class=tradEn>🇺🇸" + f.tradEng + "</div>" + "<div class=tradEsp>🇪🇸" + f.tradEsp + "</div>" + "<div class=descricao>" + f.descricao + "</div>" + "<div class=link><a href=https://www.instagram.com/p/" + f.instagram + ">Instagram</a></div>" + "</div></div>"
            $(portuguesicePost).appendTo("#portuguesices .portuguesice-lista");
      });
 
