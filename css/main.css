@@ -305,7 +305,7 @@ h3{
     min-width:280px;
     max-width:320px;
     background-color:#fff;
-    border-radius:0px;
+    border-radius:2px;
     box-shadow:0 2px 8px rgba(0,0,0,0.2);
     margin:4px;
 
@@ -314,6 +314,7 @@ h3{
     width:90%;
     margin:5%;
     height:auto;
+    border-radius:2px;
 }
 .portuguesice .conteudo{
     padding:8px;
@@ -321,7 +322,7 @@ h3{
 .portuguesice .descricao{
     padding-top:8px;
     margin-top:8px;
-    border-top:1px solid #3376f9;
+    border-top:1px solid #28b1ff;
     font-size: .8em;;
 }
 .portuguesice .link a{
