@@ -95,6 +95,49 @@
     });
   </script>
 
+<!--Buscas-->
+<script type="text/javascript">
+        $('#txt-search').keyup(function(){
+          var portuguesices = [];
+
+          var searchField = $(this).val();
+              if(searchField === '')  {
+                  $('#filter-records').html('');
+                  return;
+              }
+
+        var regex = new RegExp(searchField, "i");
+        var output = '<div class="resultado-busca">';
+        var count = 1;
+
+    
+          $.getJSON('portuguesices.json', function (data) {
+
+
+            $.each(data.portuguesices, function(key, val){
+                  if ((val.portuguesice.search(regex) != -1) || (val.tradPtBr.search(regex) != -1) || (val.tradEng.search(regex) != -1)) {
+                    output += '<a href=https://www.instagram.com/p/' + val.instagram  +' target="_blank" class=portuguesice ' + ' id=' + val.numero + ' alt=' + val.portuguesice + ' loading=lazy >';
+                    output += '<img src=' + val.imagem + ' loading=lazy class=lazy />';
+                    output += '<div class=conteudo><div class=titulo>🇵🇹' + val.portuguesice + '</div>';
+                    output += '<div class=tradBr>🇧🇷' + val.tradPtBr + '</div>';
+                    output += '<div class=tradEn>🇺🇸' + val.tradEng + '</div>';
+                    output += '<div class=tradEsp>🇪🇸' + val.tradEsp + '</div>';
+                    output += '</div></a>';
+                    
+                    count++;
+                  }
+                });
+                output += '</div>';
+                $('#filter-records').html(output);
+    
+          });
+    
+        });
+      </script>
+
+
+
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149860818-1"></script>
   <script>
