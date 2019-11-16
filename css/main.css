@@ -207,7 +207,17 @@ button:active,  .button:active, a.button:active{
     background-color:#004adc;
     color:#fff;
 }
-
+.resultados-busca{
+    max-width:480px;
+    padding:8px;
+    background-color:#004adc;
+    border-radius:16px;
+}
+.resultados-busca .imagem-busca{
+    width:64px;
+    height:64px;
+    border-radius:8px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

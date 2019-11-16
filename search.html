@@ -136,13 +136,12 @@
 
             $.each(data.portuguesices, function(key, val){
                   if ((val.portuguesice.search(regex) != -1) || (val.descricao.search(regex) != -1)) {
-                    output += '<div class="col-md-6 well">';
-                    output += '<div class="col-md-3"><img class="img-responsive" src="'+val.imagem+'" alt="'+ val.portuguesice +'" /></div>';
-                    output += '<div class="col-md-7">';
+                    output += '<a class="resultados-busca" href=#'+val.numero +'>';
+                    output += '<div class="imagem-busca"><img class="img-responsive" src="'+val.imagem+'" alt="'+ val.portuguesice +'" /></div>';
+                    output += '<div class="descricao-busca">';
                     output += '<h5>' + val.portuguesice + '</h5>';
-                    output += '<p>' + val.tradPtBr + '</p>'
                     output += '</div>';
-                    output += '</div>';
+                    output += '</a>';
                     if(count%2 == 0){
                       output += '</div><div class="row">'
                     }
