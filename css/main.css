@@ -367,6 +367,9 @@ h3{
     box-shadow:0 4px 16px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
 
 }
+.caixa-buscas{
+    padding:8px;
+}
 input.caixabusca{
     width:124px;
     background-color:#004adc;
