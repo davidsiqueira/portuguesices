@@ -359,11 +359,12 @@ h3{
     width:188px;
     min-width:188px;
     box-shadow:none;
-    
+    transition:all .2s ease;
 }
 .resultado-busca a.portuguesice:hover{
     background-color:#fff;
     color:#000;
+    border-radius:16px;
     box-shadow:0 4px 16px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
 
 }
