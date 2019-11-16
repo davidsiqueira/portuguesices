@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="pt">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Portuguesices</title>
-  <meta name="description" content="Portuguesices">
+  <meta name="description" content="Portuguesices, um dicionário ilustrado de expressões portuguesas.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
@@ -18,8 +18,6 @@
   <link rel="stylesheet" href="css/main.css">
 
   <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Open+Sans&display=swap" rel="stylesheet">
- 
-
 
 </head>
 
@@ -36,59 +34,70 @@
     <h1>Portuguesices</h1>
     <h3>Um dicionário Ilustrado de Expressões Portuguesas</h3>
     <div class="contactLinks">
-      <a href=https://www.facebook.com/portuguesice>Facebook</a> 
-      <a href="https://www.instagram.com/portuguesice/">Instagram</a> 
+      <a href=https://www.facebook.com/portuguesice>Facebook </a> <a
+        href="https://www.instagram.com/portuguesice/">Instagram</a>
       <a href="https://twitter.com/Portuguesice">Twitter</a>
       <a href="contact.html">Contacto</a>
-      </div>
+    </div>
   </div>
 
-<div class="wrapper">
-<div class="profile">
-   <div id= "portuguesices" border="0">
-      <div class="portuguesice-lista">
+  <div class="wrapper">
+    <div class="profile">
+      <div id="portuguesices">
+        <div class="portuguesice-lista">
 
+        </div>
       </div>
-    </div>
 
-</div>
-</div>
+    </div>
+  </div>
 
   <footer>
-      <a href="https://davidsiqueira.com">© 2019 davidsiqueira.com</a>
+    <a href="https://davidsiqueira.com">© 2019 davidsiqueira.com</a>
   </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
 
   <script>
+    $(function () {
+      var portuguesices = [];
 
-    $(function() {
-   var portuguesices = [];
+      $.getJSON('portuguesices.json', function (data) {
+        $.each(data.portuguesices, function (i, f) {
+          var portuguesicePost = "<div class=portuguesice " + " id=" + f.numero + " alt=" + f.portuguesice +
+            " loading=lazy >" + "<img src=" + f.imagem + " loading=lazy class=lazy />" +
+            "<div class=conteudo><div class=titulo>🇵🇹" + f.portuguesice + "</div>" +
+            "<div class=tradBr>🇧🇷" + f.tradPtBr + "</div>" + "<div class=tradEn>🇺🇸" + f.tradEng +
+            "</div>" + "<div class=tradEsp>🇪🇸" + f.tradEsp + "</div>" + "<div class=descricao>" + f
+            .descricao + "</div>" + "<div class=link><a href=https://www.instagram.com/p/" + f.instagram +
+            ">Instagram</a></div>" + "</div></div>"
+          $(portuguesicePost).appendTo("#portuguesices .portuguesice-lista");
+        });
 
-   $.getJSON('portuguesices.json', function(data) {
-       $.each(data.portuguesices, function(i, f) {
-          var portuguesicePost = "<div class=portuguesice " + " id=" + f.numero + " alt=" + f.portuguesice + " loading=lazy >" + "<img src=" + f.imagem + " loading=lazy />" + "<div class=conteudo><div class=titulo>🇵🇹" + f.portuguesice + "</div>" + "<div class=tradBr>🇧🇷" + f.tradPtBr + "</div>" + "<div class=tradEn>🇺🇸" + f.tradEng + "</div>" + "<div class=tradEsp>🇪🇸" + f.tradEsp + "</div>" + "<div class=descricao>" + f.descricao + "</div>" + "<div class=link><a href=https://www.instagram.com/p/" + f.instagram + ">Instagram</a></div>" + "</div></div>"
-           $(portuguesicePost).appendTo("#portuguesices .portuguesice-lista");
-     });
+      });
 
-   });
+    });
+  </script>
 
-});
-</script>
-  
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149860818-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149860818-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-149860818-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149860818-1');
+  </script>
 
 
 
