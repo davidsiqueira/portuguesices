@@ -207,25 +207,7 @@ button:active,  .button:active, a.button:active{
     background-color:#004adc;
     color:#fff;
 }
-.resultados-busca{
-    display:block;
-    max-width:480px;
-    padding:8px;
-    background-color:#004adc;
-    border-radius:16px;
-}
-.resultados-busca .imagem-busca{
-    width:64px;
-    height:64px;
-    border-radius:8px;
-}
-.filter-records{
-    display:flex;
-}
-.filter-records .portuguesice{
-    width:200px;
-    
-}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -306,11 +288,7 @@ button:active,  .button:active, a.button:active{
     clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+
 h3{
     color:#28b1ff
 }
@@ -358,6 +336,38 @@ h3{
 .portuguesice .link a:active{
     background-color:#3376f9;
 }
+
+.resultados-busca{
+    display:block;
+    max-width:480px;
+    padding:8px;
+    background-color:#004adc;
+    border-radius:16px;
+}
+.resultados-busca .imagem-busca{
+    width:64px;
+    height:64px;
+    border-radius:8px;
+}
+.filter-records{
+    display:flex;
+}
+.filter-records .portuguesice{
+    display:block;
+    width:200px;
+    max-width:200px;
+    
+}
+.filter-records a.portuguesice:hover{
+    background-color:#fff;
+    box-shadow:0 4px 16px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+
+}
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
