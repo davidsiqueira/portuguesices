@@ -368,8 +368,9 @@ h3{
 
 }
 input.caixabusca{
-    width:64px;
+    width:124px;
     background-color:#004adc;
+    color:#fff;
     border-radius:32px;
     transition:all .2s ease;
     margin:0 auto;
@@ -387,6 +388,7 @@ input.caixabusca:focus{
     width:100%;
     background-color:#fff;
     border:2px solid #004adc;
+    color:#000;
     cursor: text;
     outline: none;
 }
