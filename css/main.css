@@ -349,16 +349,16 @@ h3{
     height:64px;
     border-radius:8px;
 }
-.filter-records{
+.resultado-busca{
     display:flex;
 }
-.filter-records .portuguesice{
+.resultado-busca .portuguesice{
     display:block;
     width:200px;
     max-width:200px;
     
 }
-.filter-records a.portuguesice:hover{
+.resultado-busca a.portuguesice:hover{
     background-color:#fff;
     box-shadow:0 4px 16px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
 
