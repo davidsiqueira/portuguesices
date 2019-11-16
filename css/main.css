@@ -219,6 +219,13 @@ button:active,  .button:active, a.button:active{
     height:64px;
     border-radius:8px;
 }
+.filter-records{
+    display:flex;
+}
+.filter-records .portuguesice{
+    width:200px;
+    
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
