@@ -40,7 +40,7 @@
 <div class="container" style="padding:50px 250px;">
 	<form role="form">
         <div class="form-group">
-          <input type="input" class="caixabusca" id="txt-search" placeholder="Pesquise pela portuguesice ou definição">
+          <input type="input" class="caixabusca" id="txt-search" placeholder="Busca">
         </div>
 	</form>
 	<div id="filter-records"></div>
@@ -97,7 +97,7 @@
 
 
             $.each(data.portuguesices, function(key, val){
-                  if ((val.portuguesice.search(regex) != -1) || (val.descricao.search(regex) != -1)) {
+                  if ((val.portuguesice.search(regex) != -1) || (val.tradBr.search(regex) != -1) || (val.tradEn.search(regex) != -1)) {
                     output += '<a href=https://www.instagram.com/p/' + val.instagram  +' target="_blank" class=portuguesice ' + ' id=' + val.numero + ' alt=' + val.portuguesice + ' loading=lazy >';
                     output += '<img src=' + val.imagem + ' loading=lazy class=lazy />';
                     output += '<div class=conteudo><div class=titulo>🇵🇹' + val.portuguesice + '</div>';
