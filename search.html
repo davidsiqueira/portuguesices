@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Portuguesices</title>
+  <meta name="description" content="Portuguesices, um dicionário ilustrado de expressões portuguesas.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="presentation container">
+    <img src="tile.png" width=100>
+    <h1>Portuguesices</h1>
+    <h3>Um dicionário Ilustrado de Expressões Portuguesas</h3>
+    <div class="contactLinks">
+      <a href=https://www.facebook.com/portuguesice>Facebook </a> <a
+        href="https://www.instagram.com/portuguesice/">Instagram</a>
+      <a href="https://twitter.com/Portuguesice">Twitter</a>
+      <a href="contact.html">Contacto</a>
+    </div>
+  </div>
+
+  
+
+
+  
+<div class="container" style="padding:50px 250px;">
+	<form role="form">
+        <div class="form-group">
+          <input type="input" class="form-control input-lg" id="txt-search" placeholder="Type your search character">
+        </div>
+	</form>
+	<div id="filter-records"></div>
+  </div>
+
+
+
+  <footer>
+    <a href="https://davidsiqueira.com">© 2019 davidsiqueira.com</a>
+  </footer>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149860818-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149860818-1');
+  </script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('#header').load('blocks/header.html');
+  $('#footer').load('../footer.html');
+  
+      var data = [
+  {"id":"1","expressao":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":"default_profile.png"},{"id":"2","employee_name":"Garrett Winters","employee_salary":"434343","employee_age":"63","profile_image":"default_profile.png"},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":"default_profile.png"},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":"default_profile.png"},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":"default_profile.png"},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":"default_profile.png"},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":"default_profile.png"},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":"default_profile.png"},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":"default_profile.png"},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":"default_profile.png"}];
+  
+  $('#txt-search').keyup(function(){
+              var searchField = $(this).val();
+              if(searchField === '')  {
+                  $('#filter-records').html('');
+                  return;
+              }
+              
+              var regex = new RegExp(searchField, "i");
+              var output = '<div class="row">';
+              var count = 1;
+                $.each(data, function(key, val){
+                  if ((val.employee_salary.search(regex) != -1) || (val.expressao.search(regex) != -1)) {
+                    output += '<div class="col-md-6 well">';
+                    output += '<div class="col-md-3"><img class="img-responsive" src="'+val.profile_image+'" alt="'+ val.employee_name +'" /></div>';
+                    output += '<div class="col-md-7">';
+                    output += '<h5>' + val.employee_name + '</h5>';
+                    output += '<p>' + val.employee_salary + '</p>'
+                    output += '</div>';
+                    output += '</div>';
+                    if(count%2 == 0){
+                      output += '</div><div class="row">'
+                    }
+                    count++;
+                  }
+                });
+                output += '</div>';
+                $('#filter-records').html(output);
+          });
+    });
+  </script>
+
+
+<script>
+        $('#txt-search').keyup(function(){
+          var portuguesices = [];
+
+          var searchField = $(this).val();
+              if(searchField === '')  {
+                  $('#filter-records').html('');
+                  return;
+              }
+
+        var regex = new RegExp(searchField, "i");
+        var output = '<div class="row">';
+        var count = 1;
+
+    
+          $.getJSON('portuguesices.json', function (data) {
+
+
+            $.each(data.portuguesices, function(key, val){
+                  if ((val.portuguesice.search(regex) != -1) || (val.descricao.search(regex) != -1)) {
+                    output += '<div class="col-md-6 well">';
+                    output += '<div class="col-md-3"><img class="img-responsive" src="'+val.imagem+'" alt="'+ val.portuguesice +'" /></div>';
+                    output += '<div class="col-md-7">';
+                    output += '<h5>' + val.portuguesice + '</h5>';
+                    output += '<p>' + val.tradPtBr + '</p>'
+                    output += '</div>';
+                    output += '</div>';
+                    if(count%2 == 0){
+                      output += '</div><div class="row">'
+                    }
+                    count++;
+                  }
+                });
+                output += '</div>';
+                $('#filter-records').html(output);
+    
+          });
+    
+        });
+      </script>
+
+</body>
+
+</html>
