@@ -115,7 +115,7 @@
 
 
             $.each(data.portuguesices, function(key, val){
-                  if ((val.portuguesice.search(regex) != -1) || (val.tradPtBr.search(regex) != -1) || (val.tradEng.search(regex) != -1)) || (val.regiao.search(regex) != -1)) {
+                  if ((val.portuguesice.search(regex) != -1) || (val.tradPtBr.search(regex) != -1) || (val.tradEng.search(regex) != -1)) {
                     output += '<a href=https://www.instagram.com/p/' + val.instagram  +' target="_blank" class=portuguesice ' + ' id=' + val.numero + ' alt=' + val.portuguesice + ' >';
                     output += '<img src=' + val.imagem + ' loading=lazy class=lazy />';
                     output += '<div class=conteudo><div class=titulo>🇵🇹' + val.portuguesice + '</div>';
