@@ -107,10 +107,12 @@ h2{
 }
 
 .presentation.container{
-    max-width:600px;
-    padding:15% 40px;
+    max-width:100%;
+    padding:48px;
     margin:0 auto;
-    text-align: center
+    text-align: center;
+    box-sizing: border-box;
+    border-top:8px solid #003792;
 }
 
 
@@ -297,7 +299,7 @@ h3{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
-    background-color: #003792;
+    background-color: #fafbfc;
     padding: 8px;
 }
 .portuguesice{
