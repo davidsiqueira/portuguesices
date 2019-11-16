@@ -136,12 +136,12 @@
 
             $.each(data.portuguesices, function(key, val){
                   if ((val.portuguesice.search(regex) != -1) || (val.descricao.search(regex) != -1)) {
-                    output += '<a class="resultados-busca" href=#'+val.numero +'>';
-                    output += '<div class="imagem-busca"><img class="img-responsive" src="'+val.imagem+'" alt="'+ val.portuguesice +'" /></div>';
-                    output += '<div class="descricao-busca">';
-                    output += '<h5>' + val.portuguesice + '</h5>';
-                    output += '</div>';
-                    output += '</a>';
+                    "<div class=portuguesice " + " id=" + val.numero + " alt=" + val.portuguesice +
+            " loading=lazy >" + "<img src=" + val.imagem + " loading=lazy class=lazy />" +
+            "<div class=conteudo><div class=titulo>🇵🇹" + val.portuguesice + "</div>" +
+            "<div class=tradBr>🇧🇷" + val.tradPtBr + "</div>" + "<div class=tradEn>🇺🇸" + val.tradEng +
+            "</div>" + "<div class=tradEsp>🇪🇸" + val.tradEsp + "</div>" + "<div class=descricao>" + val.descricao + "</div>" + "<div class=link><a href=https://www.instagram.com/p/" + val.instagram +
+            ">Instagram</a></div>" + "</div></div>"
                     if(count%2 == 0){
                       output += '</div><div class="row">'
                     }
@@ -159,3 +159,15 @@
 </body>
 
 </html>
+
+
+<!--
+
+output += '<a class="resultados-busca" href=#'+val.numero +'>';
+                    output += '<div class="imagem-busca"><img class="img-responsive" src="'+val.imagem+'" alt="'+ val.portuguesice +'" /></div>';
+                    output += '<div class="descricao-busca">';
+                    output += '<h5>' + val.portuguesice + '</h5>';
+                    output += '</div>';
+                    output += '</a>';
+
+-->
